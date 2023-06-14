@@ -1,0 +1,199 @@
+:root {
+    --value: 40%;
+    --back-color: #efeeee;
+  }
+
+p {
+    text-align: center;
+}
+
+.game-table {
+    margin: 0 auto;
+    padding: 20px;  
+    justify-content: center;
+    box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+}
+
+#size-options {
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #eeefee;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    place-items: center;
+}
+
+h1 label {
+    color: #777;
+}
+
+.wrapper {
+    width: 100vw;
+    min-height: 40rem;
+}
+
+.relative {
+    padding: 20px;
+}
+
+.navitem {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.btn:focus {
+    outline:none !important;
+  }
+  
+  .neumorphic-btn {
+    font-size: 15px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: #010101;
+    background-color: var(--back-color);
+    /*box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.3), 
+                -2px -2px 4px 2px rgba(255, 255, 255, 1), 
+                inset -14px -14px 20px -10px rgba(0, 0, 0, 0.1),
+                inset 14px 14px 20px -10px rgba(255, 255, 255, 0.5) !important;  */
+    box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+                -7px -7px 20px rgba(255, 255, 255, 1),
+                inset 0px 0px 4px rgba(255, 255, 255, .2),
+                inset 7px 7px 15px rgba(55, 84, 170, 0),
+                inset -7px -7px 20px rgba(255, 255, 255, 0),
+                0px 0px 4px rgba(255, 255, 255, 0) !important;
+    transition: box-shadow .25s ease !important;
+  }
+  
+  .neumorphic-btn:active {  
+    box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+                -7px -7px 20px rgba(255, 255, 255, 1),
+                inset 0px 0px 4px rgba(255, 255, 255, 0),
+                inset 7px 7px 15px rgba(55, 84, 170, .15),
+                inset -7px -7px 20px rgba(255, 255, 255, 1),
+                0px 0px 4px rgba(255, 255, 255, .2) !important;
+  }
+
+  .player {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    color: #333;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 1rem 1rem;
+    position: relative;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    background: #efeeee;
+    box-shadow: inset 5px 5px 10px #d4d9dd, inset -5px -5px 10px #ffffff;
+    outline: none;
+    transition: box-shadow 0.1s ease;
+}
+
+.player:focus {
+box-shadow: inset 0px 0px 4px 3px #efeeee, inset 5px 5px 10px #c5cdd4,
+    inset -5px -5px 10px #ffffff;
+}
+
+#button:hover {
+    cursor: pointer;
+    color: green;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 16px;
+    background: #efeeee;
+    box-shadow: 5px 5px 10px #d4d9dd, -5px -5px 10px #ffffff;
+    outline: none;
+    transition: box-shadow 0.1s ease;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 10;
+    right: 0;
+    background-color: rgba(124, 147, 181, 0.6);
+    display: none;
+}
+
+.modal.open {
+    display: block;
+}
+
+.modal-content {
+    width: 100%;
+    height: 100%;
+}
+
+.winner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner-container.close {
+    display: none;
+}
+
+.color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.color-picker.close {
+    display: none;
+}
+
+.color-picker div {
+    display: flex;
+    align-items: center;
+}
+
+.color-picker .color {
+    margin: 0px 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.play-again-btn {
+    padding: 16px;
+    display: block;
+    font-size: 14px;
+}
+
+.current-player.close {
+    display: none;
+}
+
+.flip-btn.close {
+    display: none;
+}

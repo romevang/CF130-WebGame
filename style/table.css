@@ -1,0 +1,50 @@
+
+.col {
+  padding: 2em;
+  background: #efeeee;
+  box-shadow:
+    inset 4px 4px 6px #ccc,
+    inset -4px -4px 6px #fff;
+  border-radius: 50%; 
+  margin: 5px;
+}
+
+/* .col:hover {
+  border-radius: 50%;
+  background: #efeeee;
+  box-shadow:
+    -10px -10px 30px #fff,
+    10px 10px 30px #aeaec040,
+    inset -10px -10px 10px #aeaec025,
+    inset 10px 10px 10px #fff;
+  cursor: pointer;
+} */
+
+.col:focus {
+  border-radius: 50%;
+  background: #efeeee;
+  box-shadow:
+    -10px -10px 30px #fff,
+    10px 10px 30px #aeaec040,
+    inset -10px -10px 10px #aeaec025,
+    inset 10px 10px 10px #fff;
+  cursor: pointer;
+}
+
+.red-piece {
+  border-radius: 175px;
+  background: linear-gradient(145deg, #ff2c2c, #e62525);
+  box-shadow:  1px 1px 0px #c92020,
+               -1px -1px 0px #ff3232; 
+}
+
+.yellow-piece {
+  border-radius: 175px;
+  background: linear-gradient(145deg, #ffe921, #e6c41c);
+  box-shadow:  1px 1px 0px #c9ac18,
+               -1px -1px 0px #ffff26;
+}
+
+.game-table {
+  border-spacing: 5px;
+}

@@ -1,0 +1,128 @@
+.game-mode {
+    padding-top: 1rem;
+}
+
+.game-mode.close {
+    display: none;
+}
+
+.size-options {
+    display: block;
+    margin: 0 auto;
+}
+
+select {
+    width:300px;
+    height:40px;
+    background:#eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 35px;
+    box-shadow: 7px 7px 9px rgba(0,0,0,0.15), -7px -7px 9px rgba(255,255,255,0.65);
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #f3969a;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.flip-btn {
+    font-size: 15px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: #010101;
+    background-color: var(--back-color);
+    box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+                -7px -7px 20px rgba(255, 255, 255, 1),
+                inset 0px 0px 4px rgba(255, 255, 255, .2),
+                inset 7px 7px 15px rgba(55, 84, 170, 0),
+                inset -7px -7px 20px rgba(255, 255, 255, 0),
+                0px 0px 4px rgba(255, 255, 255, 0) !important;
+    transition: box-shadow .25s ease !important;
+
+}
+
+.flip-btn:hover {
+    color: green;
+    cursor: pointer;
+}
+
+
+.current-player {
+    padding: 5px;
+    margin: 15px auto;
+    width: 15%;
+    border-radius: 30px;
+    font-weight: 900;
+
+}
+
+
+.play-again-btn {
+    font-size: 15px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: #010101;
+    background-color: var(--back-color);
+    transition: box-shadow .25s ease !important;
+}
+
+.play-again-btn:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.play-game-btn {
+    font-size: 15px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: #010101;
+    background-color: var(--back-color);
+    transition: box-shadow .25s ease !important;
+}
+
+.play-game-btn:hover {
+    color: green;
+    cursor: pointer;
+}
+
+#black {
+    background-color: rgb(52, 52, 52);
+    box-shadow: 9px 9px 16px rgba(92, 93, 94, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+#black:hover {
+    background-color: rgb(39, 38, 38);
+    
+}
+
+#blue {
+    background-color: #5D8AA8;
+    box-shadow: 9px 9px 16px rgba(124, 147, 181, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+#blue:hover {
+    background-color: rgb(82, 112, 146);
+}
+
+#white {
+    background-color: #efeeee;
+    box-shadow: 9px 9px 16px rgba(124, 147, 181, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+#white:hover {
+    background-color: rgb(199, 199, 199);
+}
