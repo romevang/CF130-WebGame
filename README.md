@@ -1,6 +1,6 @@
 # [Connect Four](https://en.wikipedia.org/wiki/Connect_Four) - a web based version of the popular game 
 *This is a clone of the original private repository located here: https://github.com/emmytran/Connect-four (linked in case it becomes public).*
-### CSCI 130 - Web Development Game project
+### CSU-Fresno [CSCI 130](https://github.com/romevang) - Web Development: Game project
 Assignment: Create a web based version of Connect Four within 9 weeks with a team of up to 3 people. Using all of the knowledged gain from the class room and any prior knowledge.
 
 ## Team Members
