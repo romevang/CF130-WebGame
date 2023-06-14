@@ -16,4 +16,11 @@ Assignment: Create a web based version of Connect Four within 9 weeks with a tea
 6. Go to browser, type http://localhost/Connect-four/login.php to login into the game. 
 
 ## Screenshots of UI
-![Title](URL here)
+
+![Login Screen](https://github.com/romevang/CF130-WebGame/blob/main/screenshots/c4login.png?raw=true)
+![Welcome Screen](https://github.com/romevang/CF130-WebGame/blob/main/screenshots/WelcomeScreen.png?raw=true)
+![Main Menu](https://github.com/romevang/CF130-WebGame/blob/main/screenshots/MainMenu.png?raw=true)
+![Player Board](https://github.com/romevang/CF130-WebGame/blob/main/screenshots/GameProgress.png?raw=true)
+![Winner](https://github.com/romevang/CF130-WebGame/blob/main/screenshots/Winner.png?raw=true)
+![LeaderBoard](https://github.com/romevang/CF130-WebGame/blob/main/screenshots/LeaderBoard.png?raw=true)
+
