@@ -10,7 +10,7 @@
 ### How to run game using [XAMPP](https://www.apachefriends.org/):
 *Warning, as the game sits, it is not safe to publish directly on the internet, run on local environments only. Properly configured and hardened API's are needed to make game fully featured and ready to use online.* 
 1. Place all file contents inside of **htdocs** folder
-2. Go to http://localhost/phpmyadmin/
+2. Go to http://localhost/phpmyadmin/ *(If not using Windows, your machines IP address or 127.0.0.1 may also work in lieu of **localhost**)*
 4. Go to browser, type http://localhost/Connect-four/c4connection.php to make sure that it is connected to the database
 5. If it is connected, then run http://localhost/Connect-four/aioDBsetup.php, this will create a databse name "c4db" and a data table "players"
 6. Go to browser, type http://localhost/Connect-four/login.php to login into the game. 
